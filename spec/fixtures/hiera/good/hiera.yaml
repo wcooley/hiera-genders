@@ -1,0 +1,9 @@
+---
+:backends:
+    - genders
+
+:genders:
+    :file: spec/fixtures/hiera/good/genders
+
+:hierarchy:
+    - global
