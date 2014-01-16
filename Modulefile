@@ -1,4 +1,4 @@
-name    'wcooley-hiera-genders'
+name    'wcooley-hiera_genders'
 version '0.1.0'
 source  'git@github.com:wcooley/hiera-genders.git'
 author  'wcooley'
