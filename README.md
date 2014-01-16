@@ -36,6 +36,16 @@ License
     See the License for the specific language governing permissions and
     limitations under the License.
 
+Testing
+-------
+
+Due to what appears to be a bug in the new hiera support in `rspec-puppet`, it
+is not possible to change the `hiera_config` so running just `rake spec` or `rspec`
+at the top of the tree fails. Instead, run the tests separately:
+
+    $ rspec spec/functions/hiera_genders_broken_spec.rb
+    $ rspec spec/functions/hiera_genders_good_spec.rb
+
 Support
 -------
 
