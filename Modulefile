@@ -1,0 +1,8 @@
+name    'wcooley-hiera-genders'
+version '0.1.0'
+source  'git@github.com:wcooley/hiera-genders.git'
+author  'wcooley'
+license 'Apache License, Version 2.0'
+summary 'Hiera backend using genders'
+description 'Hiera backend using genders'
+project_page 'https://github.com/wcooley/hiera-genders'
