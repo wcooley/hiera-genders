@@ -1,5 +1,5 @@
 name    'wcooley-hiera_genders'
-version '0.1.0'
+version '0.1.1'
 source  'git@github.com:wcooley/hiera-genders.git'
 author  'wcooley'
 license 'Apache License, Version 2.0'
