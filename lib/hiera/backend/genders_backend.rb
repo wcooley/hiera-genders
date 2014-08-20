@@ -51,7 +51,7 @@ class Hiera
         Hiera.debug("nodeattr_result=\"#{result}\" return=\"#{return_code}\"")
 
         if return_code != 0       # Attribute does not exist
-          return false
+          return nil
         elsif result.length == 0  # Attribute exists but is non-valued
           return true
         else                      # Attribute exists and has value
