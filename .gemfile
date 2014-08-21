@@ -9,11 +9,6 @@ gem 'rspec-expectations', '~> 2', :require => false
 
 if puppetversion = ENV['PUPPET_VERSION']
   gem 'puppet', puppetversion, :require => false
-
-  if puppetversion[0..2] == '2.7'
-    gem 'hiera-puppet', :require => false
-  end
-
 else
   gem 'puppet', :require => false
 end
