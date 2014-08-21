@@ -1,0 +1,16 @@
+language: ruby
+rvm:
+    - 1.8.7
+    - 1.9.3
+    - 2.0.0
+script: 'rake specs'
+env:
+    - PUPPET_VERSION="~> 2.7.0"
+    - PUPPET_VERSION="3"
+gemfile: .gemfile
+matrix:
+#    exclude:
+#        - rvm: 2.0.0
+#          env: PUPPET_VERSION="~> 2.7.0"
+notifications:
+    email: false
