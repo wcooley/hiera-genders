@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'hiera', :require => false
 gem 'puppetlabs_spec_helper', '>= 0.1.0', :require => false
 gem 'rspec', '~> 2', :require => false
 gem 'rspec-core', '~> 2', :require => false
