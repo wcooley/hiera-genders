@@ -19,10 +19,16 @@ describe 'hiera' do
           should run.with_params('oof').and_return(true)
         end
 
+        it 'looks up a non-existent attribute and a default is returned' do
+          should run.with_params('does_not_exist', 'default_value') \
+            .and_return('default_value')
+        end
+
         it 'looks up a non-existent attribute and an error is raised' do
           should run.with_params('does_not_exist') \
             .and_raise_error(Puppet::Error, /#{item_unfound_msg}/)
         end
+
       end
 
       context 'unknown hostname' do
