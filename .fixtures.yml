@@ -1,0 +1,7 @@
+fixtures:
+  symlinks:
+    foo: "#{source_dir}"
+  repositories:
+    'hiera-puppet':
+      repo: 'git@github.com:puppetlabs/hiera-puppet.git'
+      ref: '1.0.0'
