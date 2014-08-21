@@ -46,6 +46,10 @@ at the top of the tree fails. Instead, run the tests separately:
     $ rspec spec/functions/hiera_genders_broken_spec.rb
     $ rspec spec/functions/hiera_genders_good_spec.rb
 
+Or using a non-standard Rake task:
+
+    $ rake specs
+
 Support
 -------
 
