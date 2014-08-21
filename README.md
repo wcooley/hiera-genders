@@ -1,6 +1,9 @@
 hiera-genders
 =============
 
+[![Build
+Status](https://travis-ci.org/wcooley/hiera-genders.svg?branch=master)](https://travis-ci.org/wcooley/hiera-genders)
+
 Provides a [genders][1] backend for Hiera.
 
 Author
