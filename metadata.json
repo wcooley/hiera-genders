@@ -5,5 +5,5 @@
   "project_page": "https://github.com/wcooley/hiera-genders",
   "summary": "Hiera backend using genders",
   "license": "Apache License, Version 2.0",
-  "name": "wcooley-hiera_genders",
+  "name": "wcooley-hiera_genders"
 }
