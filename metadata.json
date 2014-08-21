@@ -1,0 +1,9 @@
+{
+  "author": "wcooley",
+  "version": "0.1.1",
+  "source": "git@github.com:wcooley/hiera-genders.git",
+  "project_page": "https://github.com/wcooley/hiera-genders",
+  "summary": "Hiera backend using genders",
+  "license": "Apache License, Version 2.0",
+  "name": "wcooley-hiera_genders",
+}
