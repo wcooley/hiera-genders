@@ -12,7 +12,7 @@ RSpec::Core::RakeTask.new(:spec_standalone_broken) do |t|
 end
 
 desc "Run prep and standalone_{good,broken} tasts"
-task :specs do
+task :spec_separately do
   Rake::Task[:spec_prep].invoke
   Rake::Task[:spec_standalone_good].invoke
   Rake::Task[:spec_standalone_broken].invoke
