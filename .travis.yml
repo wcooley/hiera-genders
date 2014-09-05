@@ -3,12 +3,10 @@ rvm:
     - 1.8.7
     - 1.9.3
     - 2.0.0
-script: 'rake specs'
-before_install:
-    - sudo apt-get update -qq
-    - sudo apt-get install genders
+script: 'rake spec'
 env:
     - PUPPET_VERSION="~> 2.7.0"
+    - PUPPET_VERSION="~> 3.6.0"
     - PUPPET_VERSION="~> 3"
 gemfile: .gemfile
 matrix:
@@ -21,3 +19,6 @@ matrix:
           env: PUPPET_VERSION="~> 2.7.0"
 notifications:
     email: false
+before_install:
+    - sudo apt-get update -qq
+    - sudo apt-get install genders
