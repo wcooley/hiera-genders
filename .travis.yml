@@ -9,7 +9,7 @@ before_install:
     - sudo apt-get install genders
 env:
     - PUPPET_VERSION="~> 2.7.0"
-    - PUPPET_VERSION="3"
+    - PUPPET_VERSION="~> 3"
 gemfile: .gemfile
 matrix:
     fast_finish: true
